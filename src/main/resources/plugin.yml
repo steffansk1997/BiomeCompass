@@ -1,12 +1,10 @@
 name: ${project.name}
-main: ${project.groupId}.${project.artifactId}.BiomeCompass
+main: ${project.groupId}.BiomeCompass
 version: ${project.version}
 authors: [steffansk1997]
-description: >
-             Biome Compass
+description: Biome Compass
+api-version: 1.15
 commands:
-   bcompass:
-      description: Retrieve a biome compass.
-      usage: /bcompass
-      permission: bcompass.get
-      permission-message: You don't have <permission>
+  bcompass:
+    description: Retrieve a biome compass.
+    usage: /bcompass
